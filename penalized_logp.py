@@ -13,6 +13,7 @@ def sascore(m):
   s = sascorer.calculateScore(m)
   return s
 
+
 def cycle(m,min_ring_size):
   # Define the minimum ring size you consider as "long"
   ring_info = m.GetRingInfo()
