@@ -28,7 +28,6 @@ def penalized_logp(m):
 
 #Testing on Tolvaptan(Compound name)
 smiles='CC1=CC=CC=C1C(=O)NC2=CC(=C(C=C2)C(=O)N3CCCC(C4=C3C=CC(=C4)Cl)O)C'
-smiles='CCC1=C(N2C=C(C=C(C2=N1)C)N3CCN(CC3)CC(=O)N4CC(C4)O)N(C)C5=NC(=C(S5)C#N)C6=CC=C(C=C6)F'
 m=Chem.MolFromSmiles(smiles)
 plogp=penalized_logp(m)
 print(plogp)
